@@ -10,33 +10,33 @@ In order for the ML code to be in a deployable state, the first requirement is t
 
 ## Files and data description
 The project has the following structure:
-
-📦customer_churn
- ┣ 📂data
- ┃ ┗ 📜bank_data.csv
- ┣ 📂images
- ┃ ┣ 📂eda
- ┃ ┃ ┣ 📜churn_hist.png
- ┃ ┃ ┣ 📜cust_age_hist.png
- ┃ ┃ ┣ 📜heatmap.png
- ┃ ┃ ┣ 📜marital_status.png
- ┃ ┃ ┗ 📜total_trans.png
- ┃ ┣ 📂results
- ┃ ┃ ┣ 📜feature_imp.png
- ┃ ┃ ┣ 📜logistic regression_featimp.png
- ┃ ┃ ┣ 📜random forest_featimp.png
- ┃ ┃ ┗ 📜roc_plot.png
- ┣ 📂logs
- ┃ ┗ 📜churn_library.log
- ┣ 📂models
- ┃ ┣ 📜logistic_model.pkl
- ┃ ┗ 📜rfc_model.pkl
- ┣ 📜README.md
- ┣ 📜churn_library.py
- ┣ 📜churn_notebook.ipynb
- ┣ 📜churn_script_logging_and_tests.py
- ┣ 📜constants.py
- ┗ 📜requirements_py3.8.txt
+```
+┣ data
+ ┃ ┗ bank_data.csv
+ ┣ images
+ ┃ ┣ eda
+ ┃ ┃ ┣ churn_hist.png
+ ┃ ┃ ┣ cust_age_hist.png
+ ┃ ┃ ┣ heatmap.png
+ ┃ ┃ ┣ marital_status.png
+ ┃ ┃ ┗ total_trans.png
+ ┃ ┣ results
+ ┃ ┃ ┣ feature_imp.png
+ ┃ ┃ ┣ logistic regression_featimp.png
+ ┃ ┃ ┣ random forest_featimp.png
+ ┃ ┃ ┗ roc_plot.png
+ ┣ logs
+ ┃ ┗ churn_library.log
+ ┣ models
+ ┃ ┣ logistic_model.pkl
+ ┃ ┗ rfc_model.pkl
+ ┣ README.md
+ ┣ churn_library.py
+ ┣ churn_notebook.ipynb
+ ┣ churn_script_logging_and_tests.py
+ ┣ constants.py
+ ┗ requirements_py3.8.txt
+```
 
 Below is the description of the folder structure:
 1. data: contains the raw data file, on which the model is trained
