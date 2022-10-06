@@ -1,3 +1,11 @@
+'''
+Contains the unit-tests and logging for the 
+churn_library.py file
+
+Author: Gunnvant Singh Saini
+Date: 5/10/22
+'''
+
 import os
 import logging
 import churn_library as cls

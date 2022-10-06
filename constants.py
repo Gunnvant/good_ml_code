@@ -1,3 +1,10 @@
+'''
+Contains constants such as paths,
+hyperparameter configs etc.
+
+Author: Gunnvant Singh Saini
+Date: 5/10/22
+'''
 PATH_IMG_EDA = "./images/eda"
 PATH_IMG_RES = "./images/results"
 PATH_DATA = "./data/bank_data.csv"
